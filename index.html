@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>장비 도감 - Rare Items 검색</title>
+  <title>장비 도감 - v2026.1.0 (2026-04-01)</title>
   <style>
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #121212; color: #f4f4f4; margin: 0; }
     header { background: linear-gradient(125deg, #3b3eef, #9a4ef3); padding: 1rem 1.2rem; box-shadow: 0 4px 12px rgba(0,0,0,.4); }
@@ -9577,7 +9577,7 @@
         const statsPowerLine = document.createElement('p');
         const minPower = item.stats?.minPower ?? '-';
         const maxPower = item.stats?.maxPower ?? '-';
-        statsPowerLine.innerHTML = '<strong>공격력:</strong> ' + minPower + ' ~ ' + maxPower;
+        statsPowerLine.innerHTML = '<strong>위력:</strong> ' + minPower + ' ~ ' + maxPower;
         card.appendChild(statsPowerLine);
 
         const statsWeightLine = document.createElement('p');
